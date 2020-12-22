@@ -11,7 +11,6 @@ let list = ["aku","kua","kau","gua","kamu","muka","amuk","sersan"]
             }
             let key = String(characters)
             
-            // jika dictionary kosong.
             if dictMap[key] != nil {
                 dictMap[key]?.append(str)
             }
